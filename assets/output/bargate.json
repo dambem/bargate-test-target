@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/bargate_luminance.jpg",
+  "metadata": null,
+  "name": "bargate",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 132,
+    "width": 1723,
+    "height": 2297,
+    "isRotated": true,
+    "originalWidth": 1723,
+    "originalHeight": 2560
+  },
+  "resources": {
+    "originalImage": "bargate_original.jpg",
+    "croppedImage": "bargate_cropped.jpg",
+    "thumbnailImage": "bargate_thumbnail.jpg",
+    "luminanceImage": "bargate_luminance.jpg"
+  },
+  "created": 1774457930796,
+  "updated": 1774457930796
+}
