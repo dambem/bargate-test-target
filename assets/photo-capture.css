@@ -1,0 +1,100 @@
+#pc-shutter-btn {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  border: 5px solid white;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.5), 0 4px 16px rgba(0,0,0,0.35);
+  cursor: pointer;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#pc-flash {
+  position: fixed;
+  inset: 0;
+  background: white;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9998;
+  transition: opacity 0.06s ease-out;
+}
+
+#pc-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  backdrop-filter: blur(4px);
+}
+
+#pc-preview-img {
+  max-width: 90vw;
+  max-height: 65vh;
+  border-radius: 14px;
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.6);
+  object-fit: contain;
+}
+
+.pc-action-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+#pc-save-btn {
+  padding: 13px 32px;
+  background: #fff;
+  color: #111;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+}
+
+#pc-share-btn {
+  padding: 13px 28px;
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+#pc-close-btn {
+  padding: 13px 28px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.65);
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}

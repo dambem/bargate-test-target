@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/portal_luminance.svg",
+  "metadata": null,
+  "name": "portal",
+  "type": "PLANAR",
+  "properties": {
+    "left": 128,
+    "top": 0,
+    "width": 768,
+    "height": 1024,
+    "isRotated": true,
+    "originalWidth": 1024,
+    "originalHeight": 1024
+  },
+  "resources": {
+    "originalImage": "portal_original.svg",
+    "croppedImage": "portal_cropped.svg",
+    "thumbnailImage": "portal_thumbnail.svg",
+    "luminanceImage": "portal_luminance.svg"
+  },
+  "created": 1774817501970,
+  "updated": 1774817501970
+}

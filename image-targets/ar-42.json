@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/ar-42_luminance.png",
+  "metadata": null,
+  "name": "ar-42",
+  "type": "PLANAR",
+  "properties": {
+    "left": 128,
+    "top": 0,
+    "width": 768,
+    "height": 1024,
+    "isRotated": true,
+    "originalWidth": 1024,
+    "originalHeight": 1024
+  },
+  "resources": {
+    "originalImage": "ar-42_original.png",
+    "croppedImage": "ar-42_cropped.png",
+    "thumbnailImage": "ar-42_thumbnail.png",
+    "luminanceImage": "ar-42_luminance.png"
+  },
+  "created": 1774818441254,
+  "updated": 1774818441254
+}
